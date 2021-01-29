@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		843ACC3225C2A666004008C3 /* libzmqwrap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 843ACC2D25C2A61A004008C3 /* libzmqwrap.a */; };
+		843ACC5825C2C397004008C3 /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 843ACC5725C2C397004008C3 /* libc++.tbd */; };
+		845DC8F525C13F3A00E8C579 /* TestConanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DC8F425C13F3A00E8C579 /* TestConanApp.swift */; };
+		845DC8F725C13F3A00E8C579 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DC8F625C13F3A00E8C579 /* ContentView.swift */; };
+		845DC8F925C13F3B00E8C579 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845DC8F825C13F3B00E8C579 /* Assets.xcassets */; };
+		845DC8FC25C13F3B00E8C579 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845DC8FB25C13F3B00E8C579 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843ACC2C25C2A61A004008C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843ACC2625C2A61A004008C3 /* ZMQWrapper.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 52688512563E464A95A9B660;
+			remoteInfo = zmqwrap;
+		};
+		843ACCFC25C3E79D004008C3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 843ACC2625C2A61A004008C3 /* ZMQWrapper.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 9B16E606F4674D309D827E0F;
+			remoteInfo = zmqwrap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843ACC2625C2A61A004008C3 /* ZMQWrapper.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ZMQWrapper.xcodeproj; path = ../../zmqWrapLib/build/ZMQWrapper.xcodeproj; sourceTree = "<group>"; };
+		843ACC5725C2C397004008C3 /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		843ACC6F25C2F1E9004008C3 /* conanbuildinfo_multi.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = conanbuildinfo_multi.xcconfig; path = ../../zmqWrapLib/build/conanbuildinfo_multi.xcconfig; sourceTree = "<group>"; };
+		845DC8F125C13F3A00E8C579 /* TestConan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestConan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DC8F425C13F3A00E8C579 /* TestConanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestConanApp.swift; sourceTree = "<group>"; };
+		845DC8F625C13F3A00E8C579 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		845DC8F825C13F3B00E8C579 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845DC8FB25C13F3B00E8C579 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		845DC8FD25C13F3B00E8C579 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845DC90D25C142FD00E8C579 /* TestConan-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestConan-Bridging-Header.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845DC8EE25C13F3A00E8C579 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843ACC5825C2C397004008C3 /* libc++.tbd in Frameworks */,
+				843ACC3225C2A666004008C3 /* libzmqwrap.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843ACC2725C2A61A004008C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843ACC2D25C2A61A004008C3 /* libzmqwrap.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845DC8E825C13F3A00E8C579 = {
+			isa = PBXGroup;
+			children = (
+				845DC8F325C13F3A00E8C579 /* TestConan */,
+				845DC8F225C13F3A00E8C579 /* Products */,
+				845DC93F25C2A00300E8C579 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		845DC8F225C13F3A00E8C579 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845DC8F125C13F3A00E8C579 /* TestConan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845DC8F325C13F3A00E8C579 /* TestConan */ = {
+			isa = PBXGroup;
+			children = (
+				843ACC6F25C2F1E9004008C3 /* conanbuildinfo_multi.xcconfig */,
+				843ACC2625C2A61A004008C3 /* ZMQWrapper.xcodeproj */,
+				845DC8F425C13F3A00E8C579 /* TestConanApp.swift */,
+				845DC8F625C13F3A00E8C579 /* ContentView.swift */,
+				845DC8F825C13F3B00E8C579 /* Assets.xcassets */,
+				845DC8FD25C13F3B00E8C579 /* Info.plist */,
+				845DC8FA25C13F3B00E8C579 /* Preview Content */,
+				845DC90D25C142FD00E8C579 /* TestConan-Bridging-Header.h */,
+			);
+			path = TestConan;
+			sourceTree = "<group>";
+		};
+		845DC8FA25C13F3B00E8C579 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				845DC8FB25C13F3B00E8C579 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		845DC93F25C2A00300E8C579 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843ACC5725C2C397004008C3 /* libc++.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845DC8F025C13F3A00E8C579 /* TestConan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845DC90025C13F3B00E8C579 /* Build configuration list for PBXNativeTarget "TestConan" */;
+			buildPhases = (
+				845DC8ED25C13F3A00E8C579 /* Sources */,
+				845DC8EE25C13F3A00E8C579 /* Frameworks */,
+				845DC8EF25C13F3A00E8C579 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843ACCFD25C3E79D004008C3 /* PBXTargetDependency */,
+			);
+			name = TestConan;
+			productName = TestConan;
+			productReference = 845DC8F125C13F3A00E8C579 /* TestConan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845DC8E925C13F3A00E8C579 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					845DC8F025C13F3A00E8C579 = {
+						CreatedOnToolsVersion = 12.3;
+						LastSwiftMigration = 1230;
+					};
+				};
+			};
+			buildConfigurationList = 845DC8EC25C13F3A00E8C579 /* Build configuration list for PBXProject "TestConan" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845DC8E825C13F3A00E8C579;
+			productRefGroup = 845DC8F225C13F3A00E8C579 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 843ACC2725C2A61A004008C3 /* Products */;
+					ProjectRef = 843ACC2625C2A61A004008C3 /* ZMQWrapper.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				845DC8F025C13F3A00E8C579 /* TestConan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		843ACC2D25C2A61A004008C3 /* libzmqwrap.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libzmqwrap.a;
+			remoteRef = 843ACC2C25C2A61A004008C3 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845DC8EF25C13F3A00E8C579 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DC8FC25C13F3B00E8C579 /* Preview Assets.xcassets in Resources */,
+				845DC8F925C13F3B00E8C579 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845DC8ED25C13F3A00E8C579 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DC8F725C13F3A00E8C579 /* ContentView.swift in Sources */,
+				845DC8F525C13F3A00E8C579 /* TestConanApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843ACCFD25C3E79D004008C3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = zmqwrap;
+			targetProxy = 843ACCFC25C3E79D004008C3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		845DC8FE25C13F3B00E8C579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843ACC6F25C2F1E9004008C3 /* conanbuildinfo_multi.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../zmqWrapLib/src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		845DC8FF25C13F3B00E8C579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 843ACC6F25C2F1E9004008C3 /* conanbuildinfo_multi.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = "";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					../zmqWrapLib/src,
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845DC90125C13F3B00E8C579 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TestConan/Preview Content\"";
+				DEVELOPMENT_TEAM = M28Q9HQMUK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TestConan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobisystems.TestConan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestConan/TestConan-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845DC90225C13F3B00E8C579 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"TestConan/Preview Content\"";
+				DEVELOPMENT_TEAM = M28Q9HQMUK;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TestConan/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobisystems.TestConan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TestConan/TestConan-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845DC8EC25C13F3A00E8C579 /* Build configuration list for PBXProject "TestConan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DC8FE25C13F3B00E8C579 /* Debug */,
+				845DC8FF25C13F3B00E8C579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845DC90025C13F3B00E8C579 /* Build configuration list for PBXNativeTarget "TestConan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DC90125C13F3B00E8C579 /* Debug */,
+				845DC90225C13F3B00E8C579 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845DC8E925C13F3A00E8C579 /* Project object */;
+}

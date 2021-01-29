@@ -1,0 +1,15 @@
+[requires]
+zeromq/4.3.3
+xcode_multiarch/1.0@test/test
+
+[generators]
+cmake_paths
+cmake_find_package
+XCodeMultiarchGenerator
+
+[build_requires]
+ios-cmake/3.1.2
+
+[options]
+zeromq:shared=False
+zeromq:encryption=None
